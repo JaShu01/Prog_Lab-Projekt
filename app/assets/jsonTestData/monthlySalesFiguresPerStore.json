@@ -1,0 +1,4773 @@
+{
+    "success": true,
+    "data": [
+        {
+            "storeID": "S013343",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 2787
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 2942
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 2824
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 2898
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 2962
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 2778
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 2953
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 3057
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 2673
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 2950
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 2704
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 2762
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 3570
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 3231
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 3587
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 3408
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 3623
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 3286
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 3541
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 3436
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 3502
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 3487
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 3466
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 3439
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 3543
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 3184
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 3380
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 3393
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 3491
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 3237
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 3415
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 3480
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 3333
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 3430
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 3342
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 3453
+                }
+            ]
+        },
+        {
+            "storeID": "S048150",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 893
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 919
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 905
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 882
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 909
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 809
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 898
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 897
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 855
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 928
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 851
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 882
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 1358
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 1205
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 1340
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 1291
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 1375
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 1259
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 1378
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 1344
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 1230
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 1310
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 1281
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 1176
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 1628
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 1369
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 1567
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 1596
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 1614
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 1709
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 1628
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 1418
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 1463
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 1469
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 1589
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 1638
+                }
+            ]
+        },
+        {
+            "storeID": "S058118",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 1278
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 1290
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 1295
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 1248
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 1386
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 1236
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 1308
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 1309
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 1329
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 1315
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 1272
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 1306
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 1752
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 1598
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 1930
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 1778
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 1852
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 1737
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 1887
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 1756
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 1664
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 1856
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 1741
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 1864
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 2102
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 1934
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 1992
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 2165
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 2091
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 1930
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 2169
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 2011
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 1937
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 2023
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 2065
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 2127
+                }
+            ]
+        },
+        {
+            "storeID": "S062214",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 1641
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 1651
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 1552
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 1472
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 1621
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 1555
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 1666
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 1685
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 1569
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 1639
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 1603
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 1553
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 2165
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 1933
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 2100
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 1956
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 2205
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 1924
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 2217
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 2066
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 2030
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 2250
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 2043
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 2102
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 2267
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 2175
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 2292
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 2280
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 2331
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 2293
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 2426
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 2326
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 2367
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 2276
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 2237
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 2332
+                }
+            ]
+        },
+        {
+            "storeID": "S064089",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 1512
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 1492
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 1472
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 1402
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 1509
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 1443
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 1481
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 1425
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 1386
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 1585
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 1392
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 1489
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 2104
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 1777
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 1973
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 1943
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 1926
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 1908
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 2034
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 2036
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 1869
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 2031
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 1826
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 1981
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 2284
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 2051
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 2154
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 2189
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 2251
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 2063
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 2255
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 2176
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 2181
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 2333
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 2216
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 2220
+                }
+            ]
+        },
+        {
+            "storeID": "S068548",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 2466
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 2650
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 2584
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 2655
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 2703
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 2346
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 2675
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 2636
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 2552
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 2777
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 2567
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 2564
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 3250
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 3033
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 3125
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 3244
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 3355
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 2983
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 3188
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 3302
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 3166
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 3311
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 2996
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 3239
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 3313
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 3088
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 3272
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 3215
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 3224
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 3138
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 3320
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 3240
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 3160
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 3180
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 3258
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 3180
+                }
+            ]
+        },
+        {
+            "storeID": "S080157",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 717
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 725
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 755
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 713
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 771
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 711
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 783
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 664
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 739
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 765
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 761
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 731
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 1177
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 1067
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 1184
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 1124
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 1138
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 1040
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 1139
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 1128
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 1192
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 1093
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 971
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 1088
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 1391
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 1303
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 1301
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 1445
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 1434
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 1339
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 1421
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 1352
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 1415
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 1381
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 1441
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 1436
+                }
+            ]
+        },
+        {
+            "storeID": "S122017",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 351
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 309
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 323
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 364
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 334
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 320
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 372
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 336
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 286
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 377
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 308
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 305
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 621
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 539
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 567
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 555
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 588
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 509
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 615
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 587
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 605
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 658
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 540
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 573
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 867
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 824
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 894
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 825
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 823
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 847
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 800
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 816
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 847
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 945
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 808
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 844
+                }
+            ]
+        },
+        {
+            "storeID": "S147185",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 393
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 366
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 380
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 344
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 393
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 383
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 376
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 389
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 406
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 403
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 335
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 409
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 703
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 618
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 657
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 561
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 600
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 584
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 638
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 594
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 627
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 654
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 587
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 675
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 900
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 841
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 875
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 873
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 858
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 868
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 911
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 847
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 827
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 969
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 876
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 861
+                }
+            ]
+        },
+        {
+            "storeID": "S216043",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 535
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 479
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 464
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 472
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 523
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 526
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 502
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 484
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 517
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 544
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 459
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 498
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 825
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 798
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 774
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 738
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 800
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 771
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 770
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 817
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 789
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 862
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 747
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 889
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 1046
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 1021
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 1053
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 1086
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 1111
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 1097
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 1190
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 1062
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 1019
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 1161
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 1111
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 1096
+                }
+            ]
+        },
+        {
+            "storeID": "S263879",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 2026
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 2214
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 2095
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 2138
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 2216
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 2143
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 2177
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 2240
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 1934
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 2161
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 2072
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 2148
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 2644
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 2468
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 2638
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 2666
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 2783
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 2594
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 2799
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 2760
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 2686
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 2817
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 2585
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 2735
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 2877
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 2559
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 2967
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 2785
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 2795
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 2687
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 2943
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 2912
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 2803
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 2869
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 2766
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 2873
+                }
+            ]
+        },
+        {
+            "storeID": "S276746",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 1939
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 2037
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 1949
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 1715
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 2097
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 1793
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 1889
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 2068
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 1789
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 1957
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 1966
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 1911
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 2494
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 2393
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 2449
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 2390
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 2624
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 2475
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 2576
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 2497
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 2472
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 2564
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 2415
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 2434
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 2697
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 2450
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 2750
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 2664
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 2742
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 2613
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 2730
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 2502
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 2617
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 2709
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 2514
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 2768
+                }
+            ]
+        },
+        {
+            "storeID": "S302800",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 3262
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 3373
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 3452
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 3235
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 3397
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 3118
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 3454
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 3396
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 3276
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 3495
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 3120
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 3292
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 7125
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 6410
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 7083
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 6643
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 7078
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 6680
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 7287
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 7124
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 6698
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 7270
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 6741
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 6879
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 12617
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 11489
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 12186
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 12539
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 12922
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 11984
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 12760
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 12893
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 12198
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 12721
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 12174
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 12719
+                }
+            ]
+        },
+        {
+            "storeID": "S351225",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 948
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 985
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 1010
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 1055
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 1071
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 962
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 1041
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 1029
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 893
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 1007
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 975
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 960
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 1412
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 1351
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 1376
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 1408
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 1502
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 1397
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 1540
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 1426
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 1345
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 1501
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 1321
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 1425
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 1789
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 1554
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 1661
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 1670
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 1747
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 1652
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 1703
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 1686
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 1608
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 1670
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 1498
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 1737
+                }
+            ]
+        },
+        {
+            "storeID": "S361257",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 1187
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 1187
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 1207
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 1091
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 1296
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 1147
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 1182
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 1282
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 1210
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 1231
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 1280
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 1194
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 1653
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 1650
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 1727
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 1693
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 1706
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 1581
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 1735
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 1628
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 1686
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 1800
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 1613
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 1714
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 1986
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 1758
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 1939
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 1998
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 2014
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 1874
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 1880
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 2025
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 1929
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 2013
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 1913
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 1879
+                }
+            ]
+        },
+        {
+            "storeID": "S370494",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 828
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 770
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 792
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 806
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 898
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 739
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 739
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 850
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 789
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 835
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 765
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 877
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 1314
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 1100
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 1206
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 1254
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 1179
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 1137
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 1242
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 1224
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 1172
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 1283
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 1180
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 1210
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 1547
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 1385
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 1499
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 1442
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 1543
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 1440
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 1490
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 1441
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 1464
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 1461
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 1452
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 1580
+                }
+            ]
+        },
+        {
+            "storeID": "S396799",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 487
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 414
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 477
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 412
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 431
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 499
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 499
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 482
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 436
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 419
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 389
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 433
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 768
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 736
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 776
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 725
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 737
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 727
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 773
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 693
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 752
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 773
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 737
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 783
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 1004
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 922
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 1021
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 999
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 1057
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 1023
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 992
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 1026
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 964
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 1043
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 982
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 1009
+                }
+            ]
+        },
+        {
+            "storeID": "S449313",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 2341
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 2254
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 2414
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 2152
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 2398
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 2222
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 2393
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 2554
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 2234
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 2507
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 2273
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 2219
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 2971
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 2745
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 2884
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 2865
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 2988
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 2763
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 2879
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 2907
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 2864
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 2900
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 2901
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 2996
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 3076
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 2818
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 2940
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 2912
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 3107
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 2935
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 3125
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 3132
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 2922
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 3179
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 2818
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 2932
+                }
+            ]
+        },
+        {
+            "storeID": "S476770",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 5473
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 5672
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 5679
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 5387
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 5736
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 5401
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 5539
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 5802
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 5365
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 5626
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 5492
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 5212
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 6110
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 5722
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 6436
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 5768
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 6221
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 5957
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 6249
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 6014
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 5872
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 6345
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 5789
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 6119
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 5479
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 5051
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 5551
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 5470
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 5489
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 5303
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 5507
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 5605
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 5555
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 5303
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 5153
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 5634
+                }
+            ]
+        },
+        {
+            "storeID": "S486166",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 580
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 626
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 597
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 677
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 615
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 554
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 591
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 652
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 629
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 643
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 601
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 598
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 1023
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 897
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 949
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 957
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 979
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 899
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 1065
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 990
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 864
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 938
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 978
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 1045
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 1290
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 1072
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 1210
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 1114
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 1329
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 1243
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 1346
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 1260
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 1231
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 1241
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 1273
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 1205
+                }
+            ]
+        },
+        {
+            "storeID": "S490972",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 6112
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 6209
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 6372
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 5828
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 6437
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 5859
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 6294
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 6189
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 5932
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 6508
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 5933
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 6231
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 6511
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 6066
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 6595
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 6317
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 6588
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 6359
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 6685
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 6599
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 6382
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 6886
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 6359
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 6786
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 6044
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 5406
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 5914
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 5713
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 5926
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 5598
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 5928
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 5784
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 5565
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 5873
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 5606
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 5848
+                }
+            ]
+        },
+        {
+            "storeID": "S505400",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 432
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 430
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 437
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 392
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 381
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 396
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 443
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 423
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 378
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 402
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 465
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 404
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 656
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 638
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 705
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 633
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 712
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 595
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 665
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 650
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 610
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 774
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 715
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 673
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 955
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 891
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 925
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 890
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 957
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 940
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 909
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 988
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 928
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 923
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 930
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 1010
+                }
+            ]
+        },
+        {
+            "storeID": "S588444",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 635
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 700
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 671
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 610
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 730
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 629
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 648
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 695
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 663
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 710
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 658
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 613
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 1079
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 936
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 1002
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 972
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 1073
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 973
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 1034
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 996
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 971
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 1052
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 1046
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 1065
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 1357
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 1205
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 1281
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 1306
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 1368
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 1278
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 1371
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 1268
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 1326
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 1302
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 1158
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 1251
+                }
+            ]
+        },
+        {
+            "storeID": "S606312",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 1681
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 1746
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 1852
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 1667
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 1878
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 1670
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 1765
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 1858
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 1744
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 1819
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 1748
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 1865
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 2429
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 2149
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 2282
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 2265
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 2369
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 2136
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 2354
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 2267
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 2232
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 2412
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 2203
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 2285
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 2448
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 2301
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 2500
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 2543
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 2398
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 2451
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 2651
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 2534
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 2493
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 2477
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 2213
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 2452
+                }
+            ]
+        },
+        {
+            "storeID": "S669665",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 542
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 496
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 534
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 493
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 539
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 550
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 517
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 545
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 512
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 552
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 564
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 537
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 864
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 782
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 886
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 839
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 856
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 898
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 934
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 900
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 841
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 935
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 925
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 879
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 1195
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 1099
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 1133
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 1089
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 1122
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 1108
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 1212
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 1186
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 1105
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 1155
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 1100
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 1253
+                }
+            ]
+        },
+        {
+            "storeID": "S688745",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 4511
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 4827
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 4536
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 4400
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 4965
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 4487
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 4571
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 4785
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 4478
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 4889
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 4533
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 4553
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 5242
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 4748
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 5178
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 4974
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 5190
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 5061
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 5483
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 5172
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 5165
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 5471
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 5195
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 5204
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 4812
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 4390
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 4778
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 4570
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 4850
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 4583
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 4778
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 4777
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 4632
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 4709
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 4436
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 4590
+                }
+            ]
+        },
+        {
+            "storeID": "S750231",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 5019
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 5111
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 5240
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 4812
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 5395
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 4800
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 5002
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 5340
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 5087
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 5322
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 5046
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 4887
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 5917
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 5339
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 5664
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 5527
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 5848
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 5439
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 5642
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 5710
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 5379
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 5832
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 5390
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 5879
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 5250
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 4638
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 5139
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 4964
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 5098
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 4942
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 5207
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 4988
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 4907
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 5203
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 4759
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 5105
+                }
+            ]
+        },
+        {
+            "storeID": "S799887",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 3079
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 3257
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 3163
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 3041
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 3316
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 2967
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 3026
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 3325
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 3072
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 3232
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 2991
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 3099
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 3820
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 3486
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 3856
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 3612
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 3817
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 3687
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 3866
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 3758
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 3646
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 3803
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 3737
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 3658
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 4034
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 3398
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 3828
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 3679
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 3745
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 3524
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 3721
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 3628
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 3601
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 3760
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 3602
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 3697
+                }
+            ]
+        },
+        {
+            "storeID": "S817950",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 3956
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 4096
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 4291
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 4058
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 4494
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 3969
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 4245
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 4467
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 4164
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 4345
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 4176
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 4234
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 4829
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 4355
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 4735
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 4569
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 4819
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 4685
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 4890
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 4916
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 4513
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 4941
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 4531
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 4838
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 4466
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 4227
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 4536
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 4420
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 4428
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 4471
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 4613
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 4218
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 4400
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 4468
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 4299
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 4397
+                }
+            ]
+        },
+        {
+            "storeID": "S872983",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 3476
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 3383
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 3382
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 3195
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 3570
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 3262
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 3509
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 3428
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 3217
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 3458
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 3336
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 3492
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 4207
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 3739
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 4146
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 4009
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 4189
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 3870
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 4236
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 4047
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 3981
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 4033
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 3722
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 4027
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 4130
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 3596
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 3882
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 3849
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 4002
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 3662
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 3936
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 3910
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 3855
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 3970
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 3668
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 3799
+                }
+            ]
+        },
+        {
+            "storeID": "S918734",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 1095
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 1076
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 1149
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 998
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 1079
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 1022
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 1031
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 1110
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 1059
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 1102
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 1047
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 1092
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 1569
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 1441
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 1612
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 1511
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 1565
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 1490
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 1589
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 1510
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 1534
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 1563
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 1512
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 1666
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 1937
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 1724
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 1851
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 1855
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 1804
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 1890
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 1824
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 1907
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 1706
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 1787
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 1758
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 1865
+                }
+            ]
+        },
+        {
+            "storeID": "S948821",
+            "data": [
+                {
+                    "sellingMonth": 202001,
+                    "unitsSold": 3645
+                },
+                {
+                    "sellingMonth": 202002,
+                    "unitsSold": 3756
+                },
+                {
+                    "sellingMonth": 202003,
+                    "unitsSold": 3929
+                },
+                {
+                    "sellingMonth": 202004,
+                    "unitsSold": 3617
+                },
+                {
+                    "sellingMonth": 202005,
+                    "unitsSold": 3931
+                },
+                {
+                    "sellingMonth": 202006,
+                    "unitsSold": 3684
+                },
+                {
+                    "sellingMonth": 202007,
+                    "unitsSold": 3693
+                },
+                {
+                    "sellingMonth": 202008,
+                    "unitsSold": 3993
+                },
+                {
+                    "sellingMonth": 202009,
+                    "unitsSold": 3750
+                },
+                {
+                    "sellingMonth": 202010,
+                    "unitsSold": 3811
+                },
+                {
+                    "sellingMonth": 202011,
+                    "unitsSold": 3648
+                },
+                {
+                    "sellingMonth": 202012,
+                    "unitsSold": 3924
+                },
+                {
+                    "sellingMonth": 202101,
+                    "unitsSold": 4489
+                },
+                {
+                    "sellingMonth": 202102,
+                    "unitsSold": 4072
+                },
+                {
+                    "sellingMonth": 202103,
+                    "unitsSold": 4423
+                },
+                {
+                    "sellingMonth": 202104,
+                    "unitsSold": 4415
+                },
+                {
+                    "sellingMonth": 202105,
+                    "unitsSold": 4471
+                },
+                {
+                    "sellingMonth": 202106,
+                    "unitsSold": 4346
+                },
+                {
+                    "sellingMonth": 202107,
+                    "unitsSold": 4588
+                },
+                {
+                    "sellingMonth": 202108,
+                    "unitsSold": 4261
+                },
+                {
+                    "sellingMonth": 202109,
+                    "unitsSold": 4351
+                },
+                {
+                    "sellingMonth": 202110,
+                    "unitsSold": 4534
+                },
+                {
+                    "sellingMonth": 202111,
+                    "unitsSold": 4279
+                },
+                {
+                    "sellingMonth": 202112,
+                    "unitsSold": 4487
+                },
+                {
+                    "sellingMonth": 202201,
+                    "unitsSold": 4237
+                },
+                {
+                    "sellingMonth": 202202,
+                    "unitsSold": 3808
+                },
+                {
+                    "sellingMonth": 202203,
+                    "unitsSold": 4092
+                },
+                {
+                    "sellingMonth": 202204,
+                    "unitsSold": 4214
+                },
+                {
+                    "sellingMonth": 202205,
+                    "unitsSold": 4224
+                },
+                {
+                    "sellingMonth": 202206,
+                    "unitsSold": 3973
+                },
+                {
+                    "sellingMonth": 202207,
+                    "unitsSold": 4232
+                },
+                {
+                    "sellingMonth": 202208,
+                    "unitsSold": 4235
+                },
+                {
+                    "sellingMonth": 202209,
+                    "unitsSold": 4031
+                },
+                {
+                    "sellingMonth": 202210,
+                    "unitsSold": 4231
+                },
+                {
+                    "sellingMonth": 202211,
+                    "unitsSold": 4060
+                },
+                {
+                    "sellingMonth": 202212,
+                    "unitsSold": 4177
+                }
+            ]
+        }
+    ]
+}

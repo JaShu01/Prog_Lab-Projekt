@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: whitesmoke;
+}
+.soldPizzasPerStore {
+    background-color: green;
+    color: white;
+}
+.controls {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.controls select {
+    padding: 5px;
+    font-size: 16px;
+}
+.chart-container {
+    width: 60%;
+    margin: auto;
+}
+#chartjs-container {
+    margin-top: 20px;
+}
+#echarts-container {
+    margin-top: 20px;
+    height: 350px;
+}
+.sold-pizzas-per-store {
+    color: white;
+    background-color: green; 
+}

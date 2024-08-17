@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Management Platform</title>
+    <style>
+        * {
+            background-color: floralwhite;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: dodgerblue;
+            padding: 20px;
+        }
+
+        h1 {
+            background-color: dodgerblue;
+            color: white;
+        }
+
+        .header {
+            background-color: DodgerBlue;
+            color: black;
+            padding: 10px 20px;
+            text-align: center;
+            margin: 0;
+        }
+
+        .controls {
+            margin-bottom: 20px;
+        }
+
+        .controls label {
+            margin-right: 10px;
+        }
+
+        .chart-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .chart-container canvas {
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+
+        #loading {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+
+            .chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.chart-container h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.chart-wrapper {
+    width: 60%;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chart-wrapper canvas {
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+}
+
+@media (max-width: 768px) {
+    .chart-wrapper {
+        width: 100%;
+    }
+}
+
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <!-- scripts for chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@^3" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@^2" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@^1" defer></script>
+    <script src="/Frontend/javascript/displayJsonData.js" defer></script>
+    <script src="/Frontend/AnneTest.js" defer ></script>
+</head>
+
+<body>
+    Store Information</h1>
+    <div class="dropdown" placeholder="Select a store...">
+        <select id="storeDropdown">
+            <option value="All">All Stores</option>
+            <option value="S013343">S013343</option>
+            <option value="S048150">S048150</option>
+            <option value="S058118">S058118</option>
+            <option value="S062214">S062214</option>
+            <option value="S064089">S064089</option>
+            <option value="S068548">S068548</option>
+            <option value="S080157">S080157</option>
+            <option value="S122017">S122017</option>
+            <option value="S147185">S147185</option>
+            <option value="S216043">S216043</option>
+            <option value="S263879">S263879</option>
+            <option value="S276746">S276746</option>
+            <option value="S302800">S302800</option>
+            <option value="S351225">S351225</option>
+            <option value="S361257">S361257</option>
+            <option value="S370494">S370494</option>
+            <option value="S396799">S396799</option>
+            <option value="S449313">S449313</option>
+            <option value="S476770">S476770</option>
+            <option value="S486166">S486166</option>
+            <option value="S490972">S490972</option>
+            <option value="S505400">S505400</option>
+            <option value="S588444">S588444</option>
+            <option value="S606312">S606312</option>
+            <option value="S669665">S669665</option>
+            <option value="S688745">S688745</option>
+            <option value="S750231">S750231</option>
+            <option value="S799887">S799887</option>
+            <option value="S817950">S817950</option>
+            <option value="S872983">S872983</option>
+            <option value="S918734">S918734</option>
+            <option value="S948821">S948821</option>
+        </select>
+    </div>
+
+    <h1>Tables view</h1>
+    <table id="storeTable">
+        <thead>
+            <tr>
+                <th>Store ID</th>
+                <th>Zipcode</th>
+                <th>State Abbreviation</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Distance</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <div id="loading" style="display: none;">Loading...</div>
+
+    <h1>Dashboard Testing</h1>
+
+    <div class="dropdown-container">
+        <div class="dropdown-group">
+            <label class="group-title">View Settings</label>
+            <select class="dropdown" id="view">
+                <option value="yearView">Year View</option>
+                <option value="monthView">Month View</option>
+                <option value="weekView">Week View</option>
+                <option value="dayView">Day View</option>
+            </select>
+        </div>
+
+        <div class="dropdown-group" id="timeframeSettings" style="display: none;">
+            <label id="timeframeSettingsLabel" class="group-title">Timeframe Settings</label>
+            <select class="dropdown" id="year">
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+            </select>
+        </div>
+    </div>
+
+    <h2>Revenue per Store</h2>
+    <table id="additionalTable">
+        <thead>
+            <!-- Thead will be updated dynamically based on view -->
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <h3>Pizzas Sold per Store</h3>
+    <table id="pizzaSoldTable">
+        <thead>
+            <!-- Thead будет динамически обновляться на основе view -->
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <h1>Revenue per Selected Period</h1>
+
+    <div class="dropdown-container">
+        <div class="dropdown-group">
+            <label class="group-title">Period View</label>
+            <select class="dropdown" id="periodView">
+                <option value="oneMonth">One Month</option>
+                <option value="threeMonths">Three Months</option>
+                <option value="sixMonths">Six Months</option>
+            </select>
+        </div>
+
+        <div class="dropdown-group" id="monthSettings" style="display: none;">
+            <label class="group-title">Select Month</label>
+            <select class="dropdown" id="month">
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+        </div>
+
+        <div class="dropdown-group" id="threeMonthsSettings" style="display: none;">
+            <label class="group-title">Select Period</label>
+            <select class="dropdown" id="threeMonthsPeriod">
+                <option value="1">January - March</option>
+                <option value="2">April - June</option>
+                <option value="3">July - September</option>
+                <option value="4">October - December</option>
+            </select>
+        </div>
+
+        <div class="dropdown-group" id="sixMonthsSettings" style="display: none;">
+            <label class="group-title">Select Period</label>
+            <select class="dropdown" id="sixMonthsPeriod">
+                <option value="1">January - June</option>
+                <option value="2">July - December</option>
+            </select>
+        </div>
+    </div>
+
+    <h3>Revenue per Selected Period</h3>
+    <table id="periodRevenueTable">
+        <thead>
+            <!-- Thead будет динамически обновляться на основе view -->
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <h3>Pizza Sales per Selected Period</h3>
+    <table id="periodPizzaSalesTable">
+        <thead>
+            <!-- Thead will be updated dynamically based on view -->
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <h3>Customer Orders Information</h3>
+    <div>
+        <label for="customerDropdown">Select Customer:</label>
+        <select id="customerDropdown">
+            <option value="">Select a customer</option>
+            <!-- Options will be populated dynamically -->
+        </select>
+    </div>
+    <table id="customerOrdersTable">
+        <thead>
+            <tr>
+                <th>Customer ID</th>
+                <th>Order Count</th>
+                <th>Last Order Date</th>
+                <th>Most Ordered Product</th>
+                <th>totalSpent</th>
+                <th>distanceToStore</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <div class="chart-container">
+        <div class="chart-wrapper">
+            <h2>Revenue Chart</h2>
+            <canvas id="revenueChart"></canvas>
+        </div>
+        <div class="chart-wrapper">
+            <h2>Pizzas Sold Chart</h2>
+            <canvas id="pizzaSoldChart"></canvas>
+        </div>
+        <div class="chart-wrapper">
+            <h2>Period Revenue Chart</h2>
+            <canvas id="periodRevenueChart"></canvas>
+        </div>
+        <div class="chart-wrapper">
+            <h2>Period Pizza Sales Chart</h2>
+            <canvas id="periodPizzaSalesChart"></canvas>
+        </div>
+    </div>   
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+{
+    "success": true,
+    "data": [
+        {
+            "storeID": "S302800",
+            "unitsSold": "272090"
+        },
+        {
+            "storeID": "S490972",
+            "unitsSold": "221242"
+        },
+        {
+            "storeID": "S476770",
+            "unitsSold": "204086"
+        },
+        {
+            "storeID": "S750231",
+            "unitsSold": "188827"
+        },
+        {
+            "storeID": "S688745",
+            "unitsSold": "173523"
+        },
+        {
+            "storeID": "S817950",
+            "unitsSold": "160059"
+        },
+        {
+            "storeID": "S948821",
+            "unitsSold": "147611"
+        },
+        {
+            "storeID": "S872983",
+            "unitsSold": "135173"
+        },
+        {
+            "storeID": "S799887",
+            "unitsSold": "126531"
+        },
+        {
+            "storeID": "S013343",
+            "unitsSold": "116547"
+        },
+        {
+            "storeID": "S068548",
+            "unitsSold": "107955"
+        },
+        {
+            "storeID": "S449313",
+            "unitsSold": "98520"
+        },
+        {
+            "storeID": "S263879",
+            "unitsSold": "91575"
+        },
+        {
+            "storeID": "S276746",
+            "unitsSold": "84649"
+        },
+        {
+            "storeID": "S606312",
+            "unitsSold": "78137"
+        },
+        {
+            "storeID": "S062214",
+            "unitsSold": "71800"
+        },
+        {
+            "storeID": "S064089",
+            "unitsSold": "67369"
+        },
+        {
+            "storeID": "S058118",
+            "unitsSold": "61533"
+        },
+        {
+            "storeID": "S361257",
+            "unitsSold": "57888"
+        },
+        {
+            "storeID": "S918734",
+            "unitsSold": "53330"
+        },
+        {
+            "storeID": "S351225",
+            "unitsSold": "48915"
+        },
+        {
+            "storeID": "S048150",
+            "unitsSold": "44863"
+        },
+        {
+            "storeID": "S370494",
+            "unitsSold": "41933"
+        },
+        {
+            "storeID": "S080157",
+            "unitsSold": "38835"
+        },
+        {
+            "storeID": "S588444",
+            "unitsSold": "35632"
+        },
+        {
+            "storeID": "S486166",
+            "unitsSold": "33761"
+        },
+        {
+            "storeID": "S669665",
+            "unitsSold": "30677"
+        },
+        {
+            "storeID": "S216043",
+            "unitsSold": "28636"
+        },
+        {
+            "storeID": "S396799",
+            "unitsSold": "26400"
+        },
+        {
+            "storeID": "S505400",
+            "unitsSold": "24255"
+        },
+        {
+            "storeID": "S147185",
+            "unitsSold": "22581"
+        },
+        {
+            "storeID": "S122017",
+            "unitsSold": "21082"
+        }
+    ]
+}

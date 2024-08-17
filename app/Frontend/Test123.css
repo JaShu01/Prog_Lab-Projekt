@@ -1,0 +1,158 @@
+/* Universal Styles */
+* {
+    background-color: floralwhite;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: dodgerblue;
+    padding: 20px;
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: white;
+    margin: 20px 0 10px;
+}
+
+h1 {
+    background-color: dodgerblue;
+}
+
+h2, h3 {
+    color: dodgerblue;
+}
+
+/* Container for Dropdowns */
+.dropdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.dropdown-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+/* Dropdown Labels */
+.group-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Dropdown Styles */
+.dropdown, .searchbar input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: azure;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Responsive Tables */
+@media screen and (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+    thead {
+        display: none;
+    }
+    tr, td {
+        display: block;
+        text-align: right;
+    }
+    td:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    td:last-child {
+        border-bottom: 0;
+    }
+}
+
+/* Loading Indicator */
+#loading {
+    display: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+/* Search Bar */
+.searchbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.searchbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Map */
+#map {
+    height: 200px; /* Adjusted height */
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Charts */
+.charts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Gap between charts */
+}
+
+.chart {
+    flex: 1 1 calc(50% - 20px); /* Each chart takes half the width of the container minus the gap */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart canvas {
+    width: 100% !important;
+    height: 150px !important; /* Adjust chart height here to match the desired size */
+}
+
+@media screen and (max-width: 600px) {
+    .chart {
+        flex: 1 1 100%; /* Each chart takes full width on small screens */
+    }
+}

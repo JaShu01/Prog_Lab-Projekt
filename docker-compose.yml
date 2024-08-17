@@ -1,0 +1,33 @@
+version: "3.9"
+services:
+
+  mysql:
+    ports:
+      - "3307:3306"
+    build: './build/mysql'
+    environment:
+      MYSQL_ROOT_PASSWORD: "1234"
+      MYSQL_DATABASE: "pizzaDB"
+      MYSQL_PASSWORD: "1234"
+    volumes:
+      - dbData:/var/lib/mysql
+      - ./build/mysql/initdb.d:/docker-entrypoint-initdb.d:z
+      - ./build/mysql/initdb.d/products.csv:/docker-entrypoint-initdb.d/products.csv:z
+      - ./build/mysql/initdb.d/customers.csv:/docker-entrypoint-initdb.d/customers.csv:z
+      - ./build/mysql/initdb.d/orderItems.csv:/docker-entrypoint-initdb.d/orderItems.csv:z
+      - ./build/mysql/initdb.d/stores.csv:/docker-entrypoint-initdb.d/stores.csv:z
+      - ./build/mysql/initdb.d/orders1.csv:/docker-entrypoint-initdb.d/orders1.csv:z
+      - ./build/mysql/initdb.d/orders2.csv:/docker-entrypoint-initdb.d/orders2.csv:z
+      - ./build/mysql/sql_conf:/etc/mysql/conf.d:z
+      
+  php-apache:
+    ports:
+      - "8080:80"
+    build: './build/php'
+    volumes:
+      - ./app:/var/www/html:Z
+    links:
+    - mysql
+volumes:
+  app:
+  dbData:

@@ -1,0 +1,307 @@
+.website {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+}
+
+.header {   grid-column: 1 / span 3;
+    grid-row: 1;
+    background-color: #008C45;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+header-text {
+    font-size: 48px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+/*Store Searchbar Button plus functionality*/
+.storeSearch {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1%;
+}
+
+.searchDropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    max-height: 200px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 6;
+    overflow-y: auto;
+}
+
+.dropdown-content input {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: lightgrey;
+}
+
+.searchDropdown:hover .dropdown-content {
+    display: block;
+}
+
+.searchDropdown:hover .searchDropdown {
+    background-color: lightgrey;
+}
+
+/*Sidebar plus Sidebar Button*/
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: lightgrey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: darkgrey;
+}
+
+.sidebar .sidebarClose {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidebarOpen {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1%;
+}
+
+.sidebarOpen:hover {
+    background-color: lightgrey;
+}
+/*Sidebar Content*/
+.table-changable-container {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    max-height: 100%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+/*The Main Content of the Page*/
+/*The Settings in which you can edit the different Graphs and what they display*/
+.settings {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    background-color: #008C45;
+    border: 1px solid green;
+    color: white;
+    padding: 10px;
+    align-self: start;
+    z-index: 2;
+}
+#updateButton:hover {
+    background-color: darkgrey;
+}
+/*The First Row with the Line and Bar Graph*/
+.row1 {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-top: 20px;
+}
+.row1 .linechart {
+    position: relative;
+    margin-top: 2%;
+    grid-column: 1;
+    grid-row: 1;
+    border: 1px solid grey;
+    width: 95%;
+    height: 500px;
+    padding: 10px;
+}
+.row1 .barchart {
+    position: relative;
+    margin-top: 2%;
+    grid-column: 2;
+    grid-row: 1;
+    border: 1px solid grey;
+    width: 95%;
+    height: 500px;
+    padding: 10px;
+}
+/*changes the Bar chart Between Percentage or Total Value Sales*/
+.toggle-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 1;
+}
+/*A Loading screen over the graphs that is visible when they are still loading*/
+.loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+/*The Second Row with a Stacking Bar-Chart together with the Pie chart and the Map of all the Stors*/
+.row2 {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0;
+    padding: 20px;
+}
+.row2 .stacking-barchart {
+    position: relative;
+    grid-column: 1;
+    grid-row: 3;
+    border: 1px solid grey;
+    width: 95%;
+    height: 500px;
+    padding: 10px;
+}
+
+.row2 .pie-chart {
+    position: relative;
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+    height: 500px;
+    border: 1px solid grey;
+    padding: 10px;
+}
+.row2 .map-container {
+    position: relative;
+    grid-column-start: 3;
+    grid-row: 3;
+    width: 100%;
+    height: 500px;
+    border: 1px solid grey;
+    padding: 10px;
+    justify-items: stretch;
+}
+#map {
+    height: 500px;
+    width: 1000px;
+}
+/**/
+/**/
+.row3 {
+    grid-column: 1 / span 3;
+    grid-row: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+.bump-chart-pizza-canvas {
+    position: relative;
+    grid-column: 1;
+    grid-row: 4;
+    border: 1px solid grey;
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+.row3 .bump-chart-store-canvas {
+    position: relative;
+    grid-column: 2;
+    grid-row: 4;
+    border: 1px solid grey;
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+/**/
+/**/
+.row4 {
+    grid-column: 1 / span 3;
+    grid-row: 5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+/*The Note and Save Section*/
+.noteField {
+    width: 500px;
+}
+
+#noteField {
+    width: 100%;
+    height: 200px;
+}
+.h3 {
+    margin: 0;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.header-container .buttons {
+    display: flex;
+    gap: 10px;
+}
+#saveNote, #saveData {
+    margin-top: 0px;
+}

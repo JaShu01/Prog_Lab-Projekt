@@ -1,0 +1,92 @@
+* {background-color:floralwhite ;}
+body {
+    font-family: 'Arial', sans-serif;
+   /* margin: 0; /* Remove default margin */
+    background: dodgerblue;
+    padding: 20px; /* Add padding around the content except for the top */
+  }
+
+  h1 {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header {
+    background-color: DodgerBlue;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0;
+  }
+
+  /* Style the links inside the navigation bar */
+.searchbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Style the search box inside the navigation bar */
+.searchbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    font-size: 17px;
+  }
+
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+
+  
+  th {
+    background-color:azure;
+    color: black;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      width: 100%;
+    }
+    thead {
+      display: none;
+    }
+    tr, td {
+      display: block;
+      text-align: right;
+    }
+    td:before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    td:last-child {
+      border-bottom: 0;
+    }
+  }
+  

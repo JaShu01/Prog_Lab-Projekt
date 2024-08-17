@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Statistics</title>
+    <!-- The CSS stylesheets -->
+    <link rel="stylesheet" href="css/over-view.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <!-- Script libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <!-- My JavaScript file where all the JavaScript functions are -->
+    <script src="javascript/over-view.js"></script>
+
+</head>
+<body>
+<!--The Conatiner that is the whole website in a grid format that is defined in the css style sheet-->
+<div class="website">
+    <!--The Header including the Title as well as the two buttons to toggle the sidebar as well as the Search button/dropdown for the stores-->
+    <h1 class="header">
+        <header-text>Stores Information</header-text>
+        <button class="sidebarOpen" onclick="openSideBar()">More Info</button>
+        <div class="storeSearch">
+            <div class="searchDropdown">
+                <button class="searchDropdown">Select Store</button>
+                <div class="dropdown-content">
+                    <input type="text" id="dropdownSearch" placeholder="Search Store ID..." onkeyup="filterDropdown()">
+                    <a href="javascript:void(0);" onclick="navigateToStore(all);">all</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S490972);">NV - Tuscarora - S490972</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S476770);">CA - Sunol - S476770</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S750231);">CA - Esparto - S750231</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S688745);">AZ - Cibola - S688745</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S817950);">CA - Stockton - S817950</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S948821);">CA - Arbuckle - S948821</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S872983);">CA - Mount Hamilton - S872983</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S799887);">NV - Jackpot - S799887</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S013343);">NV - Battle Mountain - S013343</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S449313);">CA - Lompoc - S449313</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S449313);">CA - San Luis Obispo - S449313</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S263879);">NV - Austin - S263879</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S276746);">CA - Loyalton - S276746</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S606312);">CA - San Simeon - S606312</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S062214);">CA - Crescent City - S062214</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S064089);">NV - Eureka - S064089</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S058118);">NV - Goldfield - S058118</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S361257);">CA - Lompoc - S361257</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S918734);">CA - Montague - S918734</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S351225);">NV - Wells - S351225</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S048150);">CA - Landers - S048150</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S370494);">CA - Lakeshore - S370494</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S080157);">NV - Schurz - S080157</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S588444);">NV - Paradise Valley - S588444</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S486166);">NV - Jackpot - S486166</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S669665);">NV - Imlay - S669665</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S216043);">CA - Point Arena - S216043</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S396799);">CA - Stewarts Point - S396799</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S505400);">NV - Duckwater - S505400</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S147185);">NV - Lund - S147185</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S122017);">CA - Redwood Valley - S122017</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(S302800);">UT - Ibapah - S302800</a>
+                </div>
+            </div>
+        </div>
+<!--        <button class="searchButton" onclick="navigateToStore(all);">View All Stores</button>-->
+    </h1>
+    <!--The Sidebar that is toggled by the button in the header-->
+    <div class="sidebar" id="sidebar">
+        <a href="javascript:void(0)" class="sidebarClose" onclick="closeSideBar()">X</a>
+
+        <div class="table-fix-container">
+            <h2>Store Data</h2>
+            <!--The no Choice Table with  Fix Variables input-->
+            <div class="loadingTable">Loading...</div>
+            <table id="storeLocationsTable">
+                <thead>
+                <tr>
+                    <th>Number of Stores</th>
+                    <th>Total Revenue in $</th>
+                    <th>Total Units Sold</th>
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td><b><span id="totalRevenueFix"></span></b></td>
+                    <td><b><span id="totalUnitsFix"></span></b></td>
+                </tr>
+                <tr>
+                    <th>Number of Stores in State</th>
+                    <th>Total Revenue by State in $</th>
+                    <th>Total Units Sold by State</th>
+                </tr>
+                <tr>
+                    <td><b>CA:</b>  17</td>
+                    <td><b>CA:</b>  <span id="revenueCA"></span> </td>
+                    <td><b>CA:</b>  <span id="unitsCA"></span></td>
+                </tr>
+                <tr>
+                    <td><b>NV:</b>  13</td>
+                    <td><b>NV:</b>  <span id="revenueNV"></span></td>
+                    <td><b>NV:</b>  <span id="unitsNV"></span></td>
+
+                </tr>
+                <tr>
+                    <td><b>UT:</b>  1</td>
+                    <td><b>UT:</b>  <span id="revenueUT"></span></td>
+                    <td><b>UT:</b>  <span id="unitsUT"></span></td>
+                </tr>
+                <tr>
+                    <td><b>AZ:</b>  1</td>
+                    <td><b>AZ:</b>  <span id="revenueAZ"></span></td>
+                    <td><b>AZ:</b>  <span id="unitsAZ"></span></td>
+                </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="table-changable-container">
+            <h2>Store Data</h2>
+            <!--The Selector to Change the Values of choice Table-->
+            <div class="dropdown-container">
+                <div class="dropdown-group">
+                    <label class="group-title" for="view">View Settings</label>
+                    <select class="dropdown" id="view">
+                        <option value="completeView">Complete View</option>
+                        <option value="yearView">Year View</option>
+                        <option value="monthView">Month View</option>
+                        <option value="weekView">Week View</option>
+                    </select>
+
+                    <select class="dropdown" id="mode">
+                        <option value="units">Units</option>
+                        <option value="revenue">Revenue</option>
+                    </select>
+                </div>
+
+
+                <div class="dropdown-group">
+                    <label id="timeframeSettingsLabel" class="group-title">Timeframe Settings</label>
+
+                    <div id="fixedTimeInput">
+                        <select class="dropdown" id="year">
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                        </select>
+
+                        <select class="dropdown" id="month">
+                            <!-- Generate month options from 1 to 12 -->
+                            <script>
+                                for (let i = 1; i <= 12; i++) {
+                                    document.write('<option value="' + i + '">' + i + '</option>');
+                                }
+                            </script>
+                        </select>
+
+                        <select class="dropdown" id="week">
+                            <!-- Generate week options from 1 to 52 -->
+                            <script>
+                                for (let i = 1; i <= 52; i++) {
+                                    document.write('<option value="' + i + '">' + i + '</option>');
+                                }
+                            </script>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!--The Choice Table that is filled with data from a given Time period-->
+            <div class="loadingTable">Loading...</div>
+            <table id="table-choice-container">
+                <thead>
+                <tr>
+                    <th>Total Revenue in $</th>
+                    <th>Total Units Sold</th>
+                </tr>
+                <tr>
+                    <td><b><span id="totalRevenueChoice"></span></b></td>
+                    <td><b><span id="totalUnitsChoice"></span></b></td>
+                </tr>
+                <tr>
+                    <th>Total Revenue by State in $</th>
+                    <th>Total Units Sold by State</th>
+                </tr>
+                <tr>
+                    <td><b>CA:</b>  <span id="changableRevenueCA"></span> </td>
+                    <td><b>CA:</b>  <span id="changableUnitsCA"></span></td>
+                </tr>
+                <tr>
+                    <td><b>NV:</b>  <span id="changableRevenueNV"></span></td>
+                    <td><b>NV:</b>  <span id="changableUnitsNV"></span></td>
+
+                </tr>
+                <tr>
+                    <td><b>UT:</b>  <span id="changableRevenueUT"></span></td>
+                    <td><b>UT:</b>  <span id="changableUnitsUT"></span></td>
+                </tr>
+                <tr>
+                    <td><b>AZ:</b>  <span id="changableRevenueAZ"></span></td>
+                    <td><b>AZ:</b>  <span id="changableUnitsAZ"></span></td>
+                </tr>
+                </thead>
+                <tbody>
+                <!-- Rows will be added here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="noteField">
+            <h3>Notes</h3>
+            <div class="save-button-container">
+                <button id="saveNote" onclick="saveText()">Save Note</button>
+                <button id="saveGraphs" onclick="saveGraphs()">Save Graphs</button>
+            </div>
+            <textarea id="noteField" placeholder="Enter notes here..."></textarea>
+
+        </div>
+    </div>
+    <!--The Settings row which you use to control what the graphs display-->
+    <div class="settings">
+        <setting-button-header>Settings</setting-button-header>
+        <button id="updateButton">Update</button>
+        <label for="pizza-size">Select Pizza Size</label>
+        <select id="pizza-size">
+            <option value="all">All Sizes</option>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+        <label for="sold-time">Choose Timeframe</label>
+        <select id="sold-time">
+            <option value="weekView">Week</option>
+            <option value="monthView">Month</option>
+            <option value="yearView">Year</option>
+        </select>
+        <label for="data-display">Select Data to Display</label>
+        <select id="data-display">
+            <option value="units">Units Sold</option>
+            <option value="revenue">Revenue</option>
+        </select>
+        <label for="weekDropdown" id="weekDropdownTitle">Select the Week:</label>
+        <select id="weekDropdown">
+            <script>
+                for (let i = 1; i <= 52; i++) {
+                    document.write('<option value="' + i + '">' + "Week " + i + '</option>');
+                }
+            </script>
+        </select>
+        <label for="monthDropdown" id="monthDropdownTitle">Select the Month:</label>
+        <select id="monthDropdown">
+            <option value="1">Jan</option>
+            <option value="2">Feb</option>
+            <option value="3">Mar</option>
+            <option value="4">Apr</option>
+            <option value="5">May</option>
+            <option value="6">Jun</option>
+            <option value="7">Jul</option>
+            <option value="8">Aug</option>
+            <option value="9">Sep</option>
+            <option value="10">Oct</option>
+            <option value="11">Nov</option>
+            <option value="12">Dec</option>
+        </select>
+        <label for="yearDropdown">Select the Year:</label>
+        <select id="yearDropdown">
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+        </select>
+
+    </div>
+    <div class="row1">
+        <div class="linechart">
+            <div id="loading-line-chart" class="loading">Loading...</div>
+            <div id="line-chart-sales" class="chart-container"></div>
+        </div>
+        <div class="barchart">
+            <div id="loading-stores-sold" class="loading">Loading...</div>
+            <div id="stores-sold-barchart" class="chart-container"></div>
+            <div class="toggle-container">
+                <label for="stores-sold-toggle">Select Value Displayed</label>
+                <select id="stores-sold-toggle">
+                    <option value="numbers">Numeric Value</option>
+                    <option value="percent">Percentage</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="row2">
+        <div class="stacking-barchart">
+            <div id="loading-stacking-barchart" class="loading">Loading...</div>
+            <div id="stacking-barchart-pizza" class="chart-container"></div>
+        </div>
+        <div class="pie-chart">
+            <div id="loading-pie-chart-pizza">Loading...</div>
+            <div id="pie-chart" class="chart-container"></div>
+        </div>
+        <div class="map-container">
+            <div id="loading-map">Loading...</div>
+            <div id="map"></div>
+        </div>
+    </div>
+    <div class="row3">
+        <div class="bump-chart-pizza-canvas">
+            <div id="loading-bump-chart-Pizza" class="loading"> Loading...</div>
+            <div id="bump-chart-Pizza" class="chart-container"></div>
+        </div>
+        <div class="bump-chart-store-canvas">
+            <div id="loading-bump-chart-Store"  class="loading"> Loading...</div>
+
+
+        </div>
+    </div>
+    <div class="row4">
+
+    </div>
+</div>
+</body>
+</html>

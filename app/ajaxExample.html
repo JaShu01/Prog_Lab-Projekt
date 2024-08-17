@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard testing</title>
+    <style>
+        .container {
+            display: flex;
+            /* Use flexbox for layout */
+        }
+
+        .table-changable-container {
+            display: block;
+            width: 100% !important;
+            height: 100% !important;
+            /* Table container takes up remaining space */
+            margin: 20px;
+            /* Add some spacing between table and chart */
+        }
+
+        .chart-container {
+            display: block;
+            width: 100% !important;
+            height: 100% !important;
+            /* Chart container takes up remaining space */
+            margin: 20px;
+        }
+
+        /* Style for table and chart */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        canvas {
+            display: block;
+            width: 100% !important;
+            height: 100% !important;
+            border: 1px solid black;
+        }
+
+        .dropdown-container {
+            display: flex;
+            /* Keep all dropdown groups on the same line */
+        }
+
+        .dropdown-group {
+            display: flex;
+            /* Keep dropdowns in the same group on the same line */
+            margin-right: 40px;
+            /* Space between groups */
+        }
+
+        .dropdown-group:last-child {
+            margin-right: 0;
+            /* Remove space after the last group */
+        }
+
+        .searchDropdown {
+            margin-right: 10px;
+            /* Space between dropdowns in the same group */
+        }
+
+        /* Optional: Remove margin-right for the last dropdown in a group */
+        .searchDropdown:last-child {
+            margin-right: 0;
+        }
+
+        .group-title {
+            margin-right: 10px;
+            /* Space between title and dropdowns */
+            font-weight: bold;
+            /* Optional: Make the title bold */
+        }
+
+        .inputs {
+            display: flex;
+            /* Arrange input labels and fields horizontally */
+            margin-right: 10px;
+            /* Space between inputs and dropdowns */
+        }
+
+        .inputs label,
+        .inputs .date-input {
+            margin-right: 10px;
+            /* Space between input elements */
+        }
+
+        .inputs .date-input:last-child {
+            margin-right: 0;
+            /* Remove margin-right for the last input */
+        }
+
+        h3,
+        .loadingDiv {
+            display: inline-block;
+            vertical-align: middle;
+            /* Adjust as needed */
+            margin: 10px;
+            /* Adjust as needed */
+        }
+    </style>
+
+    <!-- scripts for ajax -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+
+    <!-- scripts for chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@^3" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@^2" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@^1" defer></script>
+
+    <!-- own scripts -->
+    <script src="assets/js/displayJsonData.js" defer></script>
+    <script src="assets/js/ajaxExample.js" defer></script>
+
+</head>
+
+<body>
+    <h1>Dashboard Testing</h1>
+
+    <!-- create the dropdown to select the options -->
+
+    <div class="dropdown-container">
+        <div class="dropdown-group">
+            <label class="group-title">View Settings</label>
+            <select class="dropdown" id="view">
+                <option value="completeView">Complete View</option>
+                <option value="yearView">Year View</option>
+                <option value="monthView">Month View</option>
+                <option value="weekView">Week View</option>
+            </select>
+
+            <select class="dropdown" id="mode">
+                <option value="units">Units</option>
+                <option value="revenue">Revenue</option>
+            </select>
+        </div>
+
+
+        <div class="dropdown-group">
+            <label id="timeframeSettingsLabel" class="group-title">Timeframe Settings</label>
+
+            <div id="fixedTimeInput">
+                <select class="dropdown" id="year">
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                </select>
+
+                <select class="dropdown" id="month">
+                    <!-- Generate month options from 1 to 12 -->
+                    <script>
+                        for (let i = 1; i <= 12; i++) {
+                            document.write('<option value="' + i + '">' + i + '</option>');
+                        }
+                    </script>
+                </select>
+
+                <select class="dropdown" id="week">
+                    <!-- Generate week options from 1 to 52 -->
+                    <script>
+                        for (let i = 1; i <= 52; i++) {
+                            document.write('<option value="' + i + '">' + i + '</option>');
+                        }
+                    </script>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- create the container for the graph and table -->
+    <div id="salesPerStorePerMonth" class="container">
+
+        <div class="chart-container">
+            <h3>Monthly Pizza Sales Data Per Store over the 3 years</h3>
+            <div class=loadingDiv style="display: none;" id="loading3">Data is loading...</div><br>
+            <!-- Loading indicator -->
+            <canvas id="salesChartPerStorePerMonth" width="400" height="100"></canvas>
+            <!-- The chart will be generated here by JavaScript -->
+        </div>
+
+    </div>
+
+    <div id="salesPerStore" class="container">
+
+        <div class="chart-container">
+
+            <h3>Pizza Sales Data for selected timeframe </h3>
+            <div class=loadingDiv style="display: none;" id="loading">Data is loading...</div>
+            <br><!-- Loading indicator -->
+            <canvas id="salesChart" width="400" height="200"></canvas>
+            <!-- The chart will be generated here by JavaScript -->
+        </div>
+
+        <div class="chart-container">
+
+            <h3>Pizza Sales Data Per Store for selected timeframe </h3>
+            <div class=loadingDiv style="display: none;" id="loading2">Data is loading...</div>
+            <br><!-- Loading indicator -->
+            <canvas id="salesChartPerStore" width="400" height="200"></canvas>
+            <!-- The chart will be generated here by JavaScript -->
+        </div>
+
+    </div>
+    <div id="storeLocation" class="container">
+        <div class="table-container">
+            <h3>Store Locations</h3>
+            <div id="loadingDiv4" class="loadingDiv">Loading...</div>
+            <table id="storeLocationsTable">
+                <thead>
+                    <tr>
+                        <th>Store ID</th>
+                        <th>Zipcode</th>
+                        <th>State Abbreviation</th>
+                        <th>Latitude</th>
+                        <th>Longitude</th>
+                        <th>City</th>
+                        <th>State</th>
+                        <th>Distance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Rows will be added here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+
+    
+    <h1>Select Options</h1>
+
+    <div class="dropdown-container">
+        <div class="dropdown-group">
+            <label class="group-title">View Settings</label>
+            <select class="dropdown" id="view">
+                <option value="completeView">Complete View</option>
+                <option value="yearView">Year View</option>
+                <option value="monthView">Month View</option>
+                <option value="weekView">Week View</option>
+            </select>
+
+            <select class="dropdown" id="mode">
+                <option value="average">Average</option>
+                <option value="absolute">Absolute</option>
+            </select>
+        </div>
+
+        <div class="dropdown-group">
+            <label id="timeframeSettingsLabel" class="group-title">Timeframe Settings</label>
+            <div id="fixedTimeInput">
+                <select class="dropdown" id="year">
+                    <option value="alltime">All Time</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                </select>
+                <select class="dropdown" id="month">
+                    <option value="alltime">All Time</option>
+                    <!-- Generate month options from 1 to 12 -->
+                    <script>
+                        for (let i = 1; i <= 12; i++) {
+                            document.write('<option value="' + i + '">' + i + '</option>');
+                        }
+                    </script>
+                </select>
+                <select class="dropdown" id="week">
+                    <option value="alltime">All Time</option>
+                    <!-- Generate week options from 1 to 52 -->
+                    <script>
+                        for (let i = 1; i <= 52; i++) {
+                            document.write('<option value="' + i + '">' + i + '</option>');
+                        }
+                    </script>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div id="salesPerTime" class="container">
+        <div id="tablePerTime" class="table-container">
+            <h3>Sales by Hours</h3>
+            <div id="loadingDiv5" class="loadingDiv">Loading...</div>
+            <table id="salesByHourTable">
+                <thead>
+                    <tr>
+                        <th>Time Interval</th>
+                        <th>Total Pizzas Sold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Rows will be added here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="customerStoreDistance" class="container">
+        <div class="table-container">
+            <h3>Distance Between Customer and Store</h3>
+            <div id="loadingDiv6" class="loadingDiv">Loading...</div>
+            <table id="distanceTable">
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer ID</th>
+                        <th>Store ID</th>
+                        <th>Distance (km)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Rows will be dynamically added here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <div id="pizzaSalesPerPlacement" class="container">
+        <div class="table-container">
+            <h3>Pizza Sales Per Placement</h3>
+            <label for="filterType">Filter by:</label>
+            <select id="filterType" class="dropdown">
+                <option value="zipcode">Zipcode</option>
+                <option value="state">State</option>
+                <option value="city">City</option>
+            </select>
+            <div id="loadingDiv7" class="loadingDiv">Loading...</div>
+            <table id="salesPlacementTable">
+                <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th>Total Pizzas Sold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Rows will be added here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Find Stores in Range</h1>
+        <div>
+            <label for="minLatitude">Min Latitude:</label>
+            <input type="number" id="minLatitude" step="0.01">
+        </div>
+        <div>
+            <label for="maxLatitude">Max Latitude:</label>
+            <input type="number" id="maxLatitude" step="0.01">
+        </div>
+        <div>
+            <label for="minLongitude">Min Longitude:</label>
+            <input type="number" id="minLongitude" step="0.01">
+        </div>
+        <div>
+            <label for="maxLongitude">Max Longitude:</label>
+            <input type="number" id="maxLongitude" step="0.01">
+        </div>
+        <button id="findStoresBtn">Find Stores</button>
+        <div id="storeCountResult">In this location range are <span id="storeCount"></span> stores.</div>
+    </div>
+    
+
+
+</body>
+
+</html>

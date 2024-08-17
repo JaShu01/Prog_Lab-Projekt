@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Statistics</title>
+    <!-- The CSS stylesheets -->
+    <link rel="stylesheet" href="css/over-view-old.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <!-- Script libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- My JavaScript file where all the JavaScript functions are -->
+    <script src="javascript/over-view.js"></script>
+</head>
+<body onload="pieChartStores()">
+
+<div class="website">
+    <header class="header">
+        <header-text>Stores Information</header-text>
+        <button id="sidebarOpen">More Info</button>
+        <div class="menu">
+            <div class="dropdown">
+                <button class="dropdown">Select Store</button>
+                <div class="dropdown-content">
+                    <input type="text" id="dropdownSearch" placeholder="Search Store ID..." onkeyup="filterDropdown()">
+                    <a href="javascript:void(0);" onclick="navigateToStore(1);">Store 1</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(2);">Store 2</a>
+                    <a href="javascript:void(0);" onclick="navigateToStore(3);">Store 3</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="graphs">
+        <div class="linechart">
+            <div id="loading-line-chart" style="display: none;">Loading...</div>
+            <div id="line-chart-sales" style="width: 100%; height: 500px;"></div>
+        </div>
+        <div class="barchart-percent">
+            <div id="loading-stores-sold" style="display: none;">Loading...</div>
+            <div id="stores-sold-barchart" style="width: 100%; height: 500px;"></div>
+            <div class="toggle-percent">
+                <label for="stores-sold-toggle">Select Value Displayed</label>
+                <select id="stores-sold-toggle">
+                    <option value="numbers">Numeric Value</option>
+                    <option value="percent">Percentage</option>
+                </select>
+            </div>
+        </div>
+        <div class="setting-btn-container">
+            <setting-button-header>Settings</setting-button-header>
+            <button id="updateButton">Update</button>
+            <label for="pizza-size">Select Pizza Size</label>
+            <select id="pizza-size">
+                <option value="all">All Sizes</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            <label for="sold-time">Choose Timeframe</label>
+            <select id="sold-time">
+                <option value="weekView">Week</option>
+                <option value="monthView">Month</option>
+                <option value="yearView">Year</option>
+            </select>
+            <label for="data-display">Select Data to Display</label>
+            <select id="data-display">
+                <option value="units">Units Sold</option>
+                <option value="revenue">Revenue</option>
+            </select>
+            <label for="weekDropdown" id="weekDropdownTitle">Select the Week:</label>
+            <select id="weekDropdown">
+                <script>
+                    for (let i = 1; i <= 52; i++) {
+                        document.write('<option value="' + i + '">' + "Week " + i + '</option>');
+                    }
+                </script>
+            </select>
+            <label for="monthDropdown" id="monthDropdownTitle">Select the Month:</label>
+            <select id="monthDropdown">
+                <option value="1">Jan</option>
+                <option value="2">Feb</option>
+                <option value="3">Mar</option>
+                <option value="4">Apr</option>
+                <option value="5">May</option>
+                <option value="6">Jun</option>
+                <option value="7">Jul</option>
+                <option value="8">Aug</option>
+                <option value="9">Sep</option>
+                <option value="10">Oct</option>
+                <option value="11">Nov</option>
+                <option value="12">Dec</option>
+            </select>
+            <label for="yearDropdown">Select the Year:</label>
+            <select id="yearDropdown">
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+            </select>
+        </div>
+    </div>
+    <div class="fractured-overview">
+        <div class="pie-charts">
+            <div id="loading-pie-chart-pizza" style="display: none;">Loading...</div>
+            <div id="pie-chart" style="width: 500px; height: 500px;"></div>
+        </div>
+        <div class="map">
+            <div id="loading-map">Loading...</div>
+            <div id="mappyMap"></div>
+        </div>
+    </div>
+</div>
+<script>
+    document.getElementById('sidebarOpen').addEventListener('click', function() {
+        const sidebar = document.getElementById('sidebar');
+        sidebar.classList.toggle('visible');
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Revenue Dashboard</title>
+    <link rel="stylesheet" href="revenue_per_store.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Store Revenue Dashboard</h1>
+        <div class="controls">
+            <label for="storeSelect">Select Store:</label>
+            <select id="storeSelect">
+                <!-- Options will be populated dynamically -->
+            </select>
+            <label for="timePeriodSelect">Select Time Period:</label>
+            <select id="timePeriodSelect">
+                <option value="weekly">Weekly</option>
+                <option value="monthly">Monthly</option>
+                <option value="yearly">Yearly</option>
+            </select>
+        </div>
+        <div class="chart-container">
+            <canvas id="revenueChart"></canvas>
+            <div id="echart" style="width: 600px;height:400px;"></div>
+            <div id="bumpChart" style="width: 600px;height:400px;"></div>
+        </div>
+    </div>
+
+    
+<button onclick="soldPizzasPerStore()">Pizza sold per store</button>
+<button onclick="revenuePerStore()">Revenue per Store</button>
+
+
+    <script>
+
+    function soldPizzasPerStore(){
+            // Perform any function or operations here
+            console.log("Button clicked!");
+            // Redirect to the new page
+            window.location.href = "pizza_sold_per_store.html";
+    }
+    function soldPizzasPerStore(){
+      // Perform any function or operations here
+            console.log("Button clicked!");
+            // Redirect to the new page
+            window.location.href = "revenue_per_Store.html";
+    }
+
+
+        const storeIds = [
+            "S490972", "S476770", "S750231", "S688745", "S817950", "S948821",
+            "S872983", "S799887", "S013343", "S068548", "S449313", "S263879",
+            "S276746", "S606312", "S062214", "S064089", "S058118", "S361257",
+            "S918734", "S351225", "S048150", "S370494", "S080157", "S588444",
+            "S486166", "S669665", "S216043", "S396799", "S505400", "S147185",
+            "S122017", "S302800"
+        ];
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const storeSelect = document.getElementById('storeSelect');
+            const timePeriodSelect = document.getElementById('timePeriodSelect');
+            const revenueChartCtx = document.getElementById('revenueChart').getContext('2d');
+            const echart = echarts.init(document.getElementById('echart'));
+
+            const storesData = {
+                "S302800": [
+                    { date: "2021-04-11", revenue: 22.99 },
+                    { date: "2021-04-12", revenue: 45.98 },
+                    { date: "2021-04-13", revenue: 33.99 },
+                    { date: "2021-05-01", revenue: 120.50 },
+                    { date: "2021-06-01", revenue: 85.20 }
+                ],
+                "S750231": [
+                    { date: "2022-06-11", revenue: 27.98 },
+                    { date: "2022-06-12", revenue: 55.96 },
+                    { date: "2022-07-01", revenue: 48.75 },
+                    { date: "2022-07-11", revenue: 150.40 },
+                    { date: "2022-08-01", revenue: 99.99 }
+                ],
+                "S688745": [
+                    { date: "2022-11-12", revenue: 15.99 },
+                    { date: "2022-11-13", revenue: 20.00 },
+                    { date: "2022-12-01", revenue: 45.20 },
+                    { date: "2022-12-11", revenue: 60.50 },
+                    { date: "2023-01-01", revenue: 75.00 }
+                ]
+            };
+
+            // Populate store options
+            for (const storeID in storesData) {
+                const option = document.createElement('option');
+                option.value = storeID;
+                option.textContent = storeID;
+                storeSelect.appendChild(option);
+            }
+
+            // Function to process data
+            function processData(data, timePeriod) {
+                const result = {};
+                data.forEach(entry => {
+                    const date = new Date(entry.date);
+                    let key;
+                    if (timePeriod === 'weekly') {
+                        const weekNumber = getISOWeek(date);
+                        key = `${date.getFullYear()}-W${weekNumber}`;
+                    } else if (timePeriod === 'monthly') {
+                        key = `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}`;
+                    } else if (timePeriod === 'yearly') {
+                        key = date.getFullYear().toString();
+                    }
+                    if (!result[key]) {
+                        result[key] = 0;
+                    }
+                    result[key] += entry.revenue;
+                });
+                return result;
+            }
+
+            function getISOWeek(date) {
+                const tempDate = new Date(date.valueOf());
+                const dayNumber = (date.getUTCDay() + 6) % 7;
+
+                tempDate.setUTCDate(tempDate.getUTCDate() - dayNumber + 3);
+                const firstThursday = tempDate.valueOf();
+
+                tempDate.setUTCMonth(0, 1);
+                if (tempDate.getUTCDay() !== 4) {
+                    tempDate.setUTCMonth(0, 1 + ((4 - tempDate.getUTCDay()) + 7) % 7);
+                }
+
+                return 1 + Math.ceil((firstThursday - tempDate) / 604800000);
+            }
+
+            // Function to update charts
+            function updateCharts() {
+                const selectedStore = storeSelect.value;
+                const timePeriod = timePeriodSelect.value;
+                const data = storesData[selectedStore] || [];
+                const processedData = processData(data, timePeriod);
+                const labels = Object.keys(processedData);
+                const values = Object.values(processedData);
+
+                // Update Chart.js chart
+                new Chart(revenueChartCtx, {
+                    type: 'bar',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: `Revenue (${timePeriod})`,
+                            data: values,
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+
+                // Update ECharts chart
+                echart.setOption({
+                    title: {
+                        text: 'Revenue Over Time'
+                    },
+                    tooltip: {
+                        trigger: 'axis'
+                    },
+                    xAxis: {
+                        type: 'category',
+                        data: labels
+                    },
+                    yAxis: {
+                        type: 'value'
+                    },
+                    series: [{
+                        data: values,
+                        type: 'line',
+                        smooth: true
+                    }]
+                });
+
+                // Update Plotly bump chart
+                const bumpChartData = createBumpChartData(storesData, timePeriod);
+                Plotly.newPlot('bumpChart', bumpChartData.data, bumpChartData.layout);
+            }
+
+            function createBumpChartData(storesData, timePeriod) {
+                const processedStoresData = {};
+                storeIds.forEach(storeID => {
+                    processedStoresData[storeID] = processData(storesData[storeID] || [], timePeriod);
+                });
+
+                const labels = Object.keys(processedStoresData[storeIds[0]] || {});
+                const bumpChartData = [];
+
+                storeIds.forEach(storeID => {
+                    const storeData = processedStoresData[storeID];
+                    const storeValues = labels.map(label => storeData[label] || 0);
+
+                    bumpChartData.push({
+                        x: labels,
+                        y: storeValues,
+                        mode: 'lines+markers',
+                        name: storeID
+                    });
+                });
+
+                return {
+                    data: bumpChartData,
+                    layout: {
+                        title: 'Revenue Comparison Over Time',
+                        xaxis: { title: 'Time' },
+                        yaxis: { title: 'Revenue' }
+                    }
+                };
+            }
+
+            storeSelect.addEventListener('change', updateCharts);
+            timePeriodSelect.addEventListener('change', updateCharts);
+
+            // Initialize charts with default values
+            updateCharts();
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Store Information</title>
+  <link rel="stylesheet" href="storeInfoNew.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+
+  <!-- scripts for chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@^3" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment@^2" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@^1" defer></script>
+
+
+</head>
+
+<body>
+  <h1>Store Information</h1>
+
+  <!--search bar to retrieve stores-->
+  <!-- dropdown to easily find options. Can be changed back to a search bar later -->
+  <div class="searchDropdown" placeholder="Select a stores...">
+    <select id="storeDropdown">
+      <option value="S013343">S013343</option>
+      <option value="S048150">S048150</option>
+      <option value="S058118">S058118</option>
+      <option value="S062214">S062214</option>
+      <option value="S064089">S064089</option>
+      <option value="S068548">S068548</option>
+      <option value="S080157">S080157</option>
+      <option value="S122017">S122017</option>
+      <option value="S147185">S147185</option>
+      <option value="S216043">S216043</option>
+      <option value="S263879">S263879</option>
+      <option value="S276746">S276746</option>
+      <option value="S302800">S302800</option>
+      <option value="S351225">S351225</option>
+      <option value="S361257">S361257</option>
+      <option value="S370494">S370494</option>
+      <option value="S396799">S396799</option>
+      <option value="S449313">S449313</option>
+      <option value="S476770">S476770</option>
+      <option value="S486166">S486166</option>
+      <option value="S490972">S490972</option>
+      <option value="S505400">S505400</option>
+      <option value="S588444">S588444</option>
+      <option value="S606312">S606312</option>
+      <option value="S669665">S669665</option>
+      <option value="S688745">S688745</option>
+      <option value="S750231">S750231</option>
+      <option value="S799887">S799887</option>
+      <option value="S817950">S817950</option>
+      <option value="S872983">S872983</option>
+      <option value="S918734">S918734</option>
+      <option value="S948821">S948821</option>
+    </select>
+  </div>
+
+  <table id="storeTable">
+    <thead>
+      <tr>
+        <th>Store ID</th>
+        <th>Zipcode</th>
+        <th>State Abbreviation</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Distance</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <!-- Loading indicator to check if the ajax call is finished-->
+  <div id="loading" style="display: none;">Loading...</div>
+
+  <script>
+    /* Paste the JSON data directly inside the script tag or load it from an external file
+    
+    const storeData = [ 
+                        
+    ]
+    // Function to populate the table with store data
+    populateTable(data) {
+      const table = document.getElementById('storeTable').getElementsByTagName('tbody')[0];
+      data.forEach(store => {
+        let row = table.insertRow();
+        Object.values(store).forEach(text => {
+          let cell = row.insertCell();
+          cell.textContent = text.replace(/\"/g, ''); // Remove extra quotes
+        });
+    });
+    }
+    
+    // Call the function with the store data
+    $.ajax({
+                    url: '/ajax/getStoreInfo.php',
+                    type: 'POST',
+                    data: {
+                      storID : storeID,
+                      zipcode : zipcode,
+                      state : state_abbr,
+                      latitude : latitude,
+                      longitude : longitude,
+                      city : city,
+                      state : state,
+                      distance : distance
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            // Call the function from showTable.js
+                            displayJsonTable(response.data, "Store Informations");
+    
+                        } else {
+                            $('#StoreInfoNew').html('<p>' + response.message + '</p>');
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.log('AJAX Error:', status, error);
+                    },
+                    complete: function () {
+                        $('#loading2').hide(); // Hide loading indicator when request is complete
+                    }
+                });
+    
+    populateTable(storeData);*/
+
+
+
+
+    // Function to populate the table with store data
+    function populateTable(data) {
+      const table = document.getElementById('storeTable').getElementsByTagName('tbody')[0];
+      data.forEach(store => {
+        let row = table.insertRow();
+        Object.values(store).forEach(text => {
+          let cell = row.insertCell();
+          cell.textContent = text ? text.replace(/\"/g, '') : ''; // Remove extra quotes
+        });
+      });
+    }
+
+    // Wait for the website to have loaded before launching the script to avoid this script launching before the jquery depency in the <head> is loaded
+    window.addEventListener('DOMContentLoaded', function () {
+
+      // put the ajax request inside a function that can be trigger on a specific event, e.g. when a dropdown/searchbar input in chosen
+      function getStoreInfo() {
+
+        // get the value from the dropdown
+        var storeID = $('#storeDropdown').val();
+
+        $('#loading').show(); // Show loading indicator
+
+        // Perform AJAX request to fetch store information
+        $.ajax({
+          url: '/BackendTestingJabrail/storeLocationTransfer.php', // Ensure this URL is correct and points to your PHP script
+          type: 'POST',
+  dataType: 'json', // Expect JSON response
+          data: {
+            storeID: storeID  // send the storeID to the server to get the info of it
+          },
+          success: function (response) {
+            if (response.success) {
+              populateTable(response.data); // Populate the table with response data
+            } else {
+              $('#StoreInfoNew').html('<p>' + response.message + '</p>');
+            }
+          },
+          error: function (xhr, status, error) {
+            console.log('AJAX Error:', status, error);
+            $('#StoreInfoNew').html('<p>An error occurred: ' + error + '</p>');
+          },
+          complete: function () {
+            $('#loading').hide(); // Hide loading indicator when request is complete
+          }
+        });
+
+        // Dummy data placeholder, remove or replace with actual data fetch logic
+        const storeData = []; // This is a placeholder and will not be used if AJAX works correctly
+        populateTable(storeData); // Ensure this is called if you have some default data to display
+
+
+      }
+      // Chose what triggers the function containing the ajax request. Here it get triggered everytime the dropdown is changed
+      $('#storeDropdown').change(getStoreInfo);
+    });
+  </script>
+
+</body>
+</html>
